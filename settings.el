@@ -18,4 +18,3 @@
 (tooltip-mode -1)
 (setq visible-bell t)
 (setq ring-bell-function 'ignore)
-(global-linum-mode t)

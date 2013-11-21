@@ -22,6 +22,7 @@
   (load-file (expand-file-name file "~/.emacs.d/")))
 
 (load-user-file "settings.el")
+(load-user-file "global_modes.el")
 (load-user-file "keymappings.el")
 (load-user-file "look.el")
 
