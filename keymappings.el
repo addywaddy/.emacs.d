@@ -7,6 +7,8 @@
 (global-set-key (kbd "M-v") 'yank)
 (global-set-key (kbd "M-c") 'kill-ring-save)
 (global-set-key (kbd "M-u") 'undo-tree-visualize)
+(global-set-key (kbd "M-s") 'save-buffer)
+(global-set-key (kbd "M-u") 'undo-tree-visualize)
 (global-set-key (kbd "C-c k") 'kill-line)
 (global-set-key (kbd "C-k") 'previous-line)
 (global-set-key (kbd "C-j") 'next-line)
