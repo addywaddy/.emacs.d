@@ -18,3 +18,6 @@
 (tooltip-mode -1)
 (setq visible-bell t)
 (setq ring-bell-function 'ignore)
+
+;; flx can benefit significantly from garbage collection tuning.
+(setq gc-cons-threshold 20000000)
