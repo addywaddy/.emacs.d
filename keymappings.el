@@ -12,9 +12,9 @@
 (global-set-key (kbd "M-D") 'split-window-below)
 (global-set-key (kbd "M-w") 'delete-window)
 (global-set-key (kbd "M-q") 'save-buffers-kill-terminal)
-(global-set-key "\C-w" 'backward-kill-word)
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-(global-set-key (kbd "M-f") 'projectile-find-file)
+(global-set-key (kbd "M-p") 'projectile-find-file)
+(global-set-key (kbd "M-f") 'phi-search)

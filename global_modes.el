@@ -8,3 +8,9 @@
 (flx-ido-mode 1)
 ;; disable ido faces to see flx highlights.
 (setq ido-use-faces nil)
+(setq rbenv-installation-dir "~/.rbenv")
+(global-rbenv-mode)
+(setq rbenv-show-active-ruby-in-modeline nil)
+(set-fringe-mode 0)
+(smartparens-global-mode t)
+(global-auto-complete-mode t)

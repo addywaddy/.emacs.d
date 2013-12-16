@@ -7,4 +7,4 @@
  '(linum ((t (:inherit (shadow default) :background "#111013" :foreground "#404040" :height 100))))
  '(mode-line ((t (:background "#141414" :foreground "#828282" :box nil :height 120)))))
 
-(load-theme 'soothe t)
+(load-theme 'ujelly t)
