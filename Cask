@@ -23,5 +23,8 @@
 (depends-on "evil")
 (depends-on "auto-complete")
 (depends-on "web-mode")
+(depends-on "emmet-mode")
 (depends-on "ruby-mode")
 (depends-on "magit")
+(depends-on "base16-theme")
+(depends-on "clojure-mode")
