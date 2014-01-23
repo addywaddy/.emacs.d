@@ -14,3 +14,4 @@
 (set-fringe-mode 0)
 (smartparens-global-mode t)
 (global-auto-complete-mode t)
+(auto-complete-mode t)
