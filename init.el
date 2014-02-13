@@ -12,9 +12,9 @@
   "Load a file in current user's configuration directory"
   (load-file (expand-file-name file "~/.emacs.d/")))
 
-(defun open-init-file ()
+(defun open-init ()
   (interactive)
-  (find-file "~/.emacs.d/init.el")
+  (find-file "~/.emacs.d")
   )
 
 (load-user-file "settings.el")
