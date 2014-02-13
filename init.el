@@ -1,10 +1,8 @@
 (require 'cask "~/.cask/cask.el")
-
 (cask-initialize)
 (require 'auto-complete)
 (add-to-list 'auto-mode-alist '("Cask" . lisp-mode))
 (push "/usr/local/bin" exec-path)
-(add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
 (defun load-user-file (file)
