@@ -20,6 +20,9 @@
 (load-user-file "keymappings.el")
 (load-user-file "look.el")
 (load-user-file "hooks.el")
+(load-user-file "functions.el")
+(load-user-file "file-types.el")
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
