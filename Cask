@@ -17,6 +17,7 @@
 (depends-on "epl")
 (depends-on "evil")
 (depends-on "f")
+(depends-on "fill-column-indicator")
 (depends-on "flx")
 (depends-on "flx-ido")
 (depends-on "git-commit-mode")
