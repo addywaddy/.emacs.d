@@ -15,3 +15,5 @@
 (smartparens-global-mode t)
 (global-auto-complete-mode)
 (ac-linum-workaround)
+;;(drag-stuff-mode t)
+(wrap-region-mode t)

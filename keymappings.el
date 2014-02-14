@@ -18,3 +18,4 @@
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 (global-set-key (kbd "M-p") 'projectile-find-file)
 (global-set-key (kbd "M-f") 'phi-search)
+(global-set-key (kbd "M-F") 'ag-project)

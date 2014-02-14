@@ -2,3 +2,9 @@
 (add-hook 'markdown-mode-hook (lambda () (setq markdown-css-path "~/.emacs/resources/markdown/github.css")))
 (add-hook 'before-save-hook 'whitespace-cleanup)
 (add-hook 'yaml-mode-hook (lambda () (electric-indent-local-mode -1)))
+(add-hook 'css-mode-hook '(lambda ()
+                           (setq css-indent-offset 2)))
+
+(add-hook 'scss-mode-hook '(lambda ()
+                             (setq scss-compile-at-save nil)
+                             ))
