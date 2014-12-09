@@ -3,8 +3,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#110F13" :foreground "#F4EAD5" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 150 :width normal :foundry "apple" :family "Inconsolata_for_Powerline"))))
- '(linum ((t (:inherit (shadow default) :background "#111013" :foreground "#404040" :height 150))))
- '(mode-line ((t (:background "#141414" :foreground "#828282" :box nil :height 140)))))
+ '(default ((t (:height 150 :foundry "apple" :family "Inconsolata_for_Powerline"))))
+ '(linum ((t (:height 150))))
+ '(mode-line ((t (:height 140)))))
 
-(load-theme 'ujelly t)
+(setq linum-format "%d ")
+;;(load-theme 'ujelly t)
+
+(load-theme 'monokai t)

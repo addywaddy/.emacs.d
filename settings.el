@@ -8,7 +8,6 @@
 (setq-default indent-tabs-mode nil)
 (setq inhibit-startup-message t)
 (setq dired-use-ls-dired nil)
-(setq rbenv-installation-dir "/usr/local")
 (global-auto-revert-mode t)
 (fset 'yes-or-no-p 'y-or-n-p)
 (delete-selection-mode t)
